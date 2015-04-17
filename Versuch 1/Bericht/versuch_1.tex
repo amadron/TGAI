@@ -14,17 +14,13 @@
 Es soll die Kennlinie eines Abstandssensores ermittelt werden. Dazu sollen wir 20 Messungen im Abstand von 10 bis 70cm mithilfe eines Oszilloskopes per Hand, als auch per USB an den PC im Labor übertragen. Anschließend sollen die Mittelwerte ermittelt werden, um ein genaues Messergebnis zu gewährleisten. Hinzu kommt noch die Berechnung der Standartabweichung. Das ganze soll dann noch Grafisch dargestellt werden.
 
 \subsection*{Messmittel}
-\begin{flushleft}
 Als Messmittel dienten ein Oszilloskop als Messgerät, sowie ein Entfernungsmesser als
 Sensor. Das Oszilloskop ist das Modell TDS 2022B des Herstellers Tektronix und ist via USB mit einem PC im Labor verbunden. Der Entfernungssensor war ein Distanzsensor vom Typ GP2Y0A21YK0F der
 Firma Sharp, welcher nach dem Triangulationsprinzip funktioniert.
-\end{flushleft}
 
 \subsection*{Aufbau}
-\begin{flushleft}
 Der Aufbau erfolgte, indem das Oszilloskop sowie der Sensor miteinander verbunden wurden und beide Geräte an ein Netzgerät mit 5V Gleichspannung angeschlossen wurden.
 Danach gab es noch eine Einweisung in das Oszilloskop. Gegenüber vom Sensor wurde eine kleine Holzspanplatte als zu messendes Objekt platziert. Diese Holzplatte wurde im Abstand von 13-70cm dann in gleichmäßigen abständen von je 3cm nach hinten verrückt, um verschiedene Messergebnisse zu erhalten.
-\end{flushleft}
 
 \subsection*{Messprinzip}
 \begin{flushleft}
@@ -52,9 +48,8 @@ Wie oben beschrieben, wurden 21 Messversuche im Abstand von je 3 cm sowie die
 Seitenlängen und Breite eines DinA4 Blattes ermittelt. Diese Ergebnisse wurden vom
 Oszilloskop abgelesen und per Hand in ein Blatt eingetragen, diese Messwerte können Sie
 folgender Tabelle entnehmen:
-
+\begin{table}[H]
 \begin{tabular}{|c|c|c|}
-\hline 
 Entfernung & Spannung & V \\ 
 \hline 
 10 cm & 1,34 V & 56,0 mV \\ 
@@ -101,8 +96,10 @@ Entfernung & Spannung & V \\
 \hline
 70cm & 0,360 V & 56,0 mV \\
 \hline
-\end{tabular} 
-	
+\end{tabular}
+\label{Messwerte per Hand}
+\caption{Messwerte per Hand} 
+\end{table}
 	
 
 	
@@ -111,16 +108,23 @@ Entfernung & Spannung & V \\
 
 
 Anzumerken sei noch, dass wir zum Teil durch einen Ablesefehler falsche werte in die Tabelle eingetragen haben.
-Neben dem ablesen per Hand, wurden die Messwerte noch per USB verbindung an den PC im Labor übertragen und mithilfe der Software "OpenChoice Dekstop" ausgelesen und im "csv" Excel format gespeichert. 
+Neben dem ablesen per Hand, wurden die Messwerte noch per USB verbindung an den PC im Labor übertragen und mithilfe der Software "OpenChoice Dekstop" ausgelesen und im "csv\dq ~Excel format gespeichert. 
 \end{flushleft}
 
 \section{Auswertung}
 \label{chap:VERSUCH_1_AUSWERTUNG}
 \begin{flushleft}
-Zur auswertung und verarbeitung der Messwerte, verwenden wir die Bibliothek "Numpy" welche wir in der Skriptsprache Python verwenden. Der erste Schritt zur auswertung der Daten, besteht darin die Dateien mit den Messwerten einzulesen. Dies erfolgt mithilfe des Numpy befehls "genfromtxt", welcher uns aus einer Textdatei ein Array von Daten erstellt. Da wir die Dateien nach dem Schema z.B 13cm.csv abgespeichert haben, können wir dies ganz einfach mithilfe einer Schleife bewerkstelligen. Beim Einlesen der Daten ist noch zu beachten, dass wir erst in der Zeile 1000 mit dem Einlesen beginnen. Dies wird in der Versuchsanleitung empfohlen, da sich der Sensor
+Zur auswertung und verarbeitung der Messwerte, verwenden wir die Bibliothek "Numpy" welche wir in der Skriptsprache Python verwenden. Der erste Schritt zur auswertung der Daten, besteht darin die Dateien mit den Messwerten einzulesen. Dies erfolgt mithilfe des Numpy befehls "genfromtxt", welcher uns aus einer Textdatei ein Array von Daten erstellt. Da wir die Dateien nach dem Schema z.B 13cm.csv abgespeichert haben, können wir dies ganz einfach mithilfe einer Schleife bewerkstelligen. Beim Einlesen der Daten ist noch zu beachten, dass wir erst in der Zeile 1000 mit dem Einlesen beginnen. Dies wird in der Versuchsanleitung empfohlen, da sich der Sensor erst einpendeln muss. 
+
+Nun berechnet man für jede Messung den Mittelwert. Dies erfolgt mit der Numpy funktion "mean". Hier werden alle Werte addiert und durch die Anzahl der Messwerte dividiert.
+\begin{figure}[H]
+\includegraphics[]{media/messwerte.png}
+\caption{Mittelwerte}
+\end{figure}
+Als nächstes brauchen wir noch die jeweilige Standartabweichung. Für diese brauchen wir die Funktion \dq std\dq ~ ebenfalls aus der Numpy Bibliothek.
 \end{flushleft}
 
 \section{Interpretation}
 \label{chap:VERSUCH_1_INTERPRETATION}
-
+Man kann erkennen, dass sich die Mittelwerte wie eine Exponentialfunktion verhalten. Genauso erhöt sich die Standartabweichung mit zunehmender Distanz vom Sensor.
 \end{document}
