@@ -11,16 +11,16 @@
 \label{chap:VERSUCH_1_FRAGESTELLUNG}
 
 \subsection*{Fragestellung}
-Es soll die Kennlinie eines Abstandssensores ermittelt werden. Dazu sollen wir 20 Messungen im Abstand von 10 bis 70cm mithilfe eines Oszilloskopes per Hand, als auch per USB an den PC im Labor übertragen. Anschließend sollen die Mittelwerte ermittelt werden, um ein genaues Messergebnis zu gewährleisten. Hinzu kommt noch die Berechnung der Standartabweichung. Das ganze soll dann noch Grafisch dargestellt werden.
+Es soll die Kennlinie eines Abstandssensores ermittelt werden. Dazu sollen wir 21 Messungen im Abstand von 10 bis 70cm mithilfe eines Oszilloskopes per Hand, als auch per USB an den PC im Labor übertragen. Anschließend sollen die Mittelwerte ermittelt werden, um ein genaues Messergebnis zu gewährleisten. Hinzu kommt noch die Berechnung der Standartabweichung. Das ganze soll dann noch Grafisch dargestellt werden.
 
 \subsection*{Messmittel}
-Als Messmittel dienten ein Oszilloskop als Messgerät, sowie ein Entfernungsmesser als
-Sensor. Das Oszilloskop ist das Modell TDS 2022B des Herstellers Tektronix und ist via USB mit einem PC im Labor verbunden. Der Entfernungssensor war ein Distanzsensor vom Typ GP2Y0A21YK0F der
+Als Messmittel dient ein Oszilloskop, sowie ein Entfernungsmesser als
+Sensor. Das Oszilloskop ist das Modell TDS 2022B des Herstellers Tektronix und ist via USB mit einem PC im Labor verbunden. Der Entfernungssensor ist ein Distanzsensor vom Typ GP2Y0A21YK0F der
 Firma Sharp, welcher nach dem Triangulationsprinzip funktioniert.
 
 \subsection*{Aufbau}
-Der Aufbau erfolgte, indem das Oszilloskop sowie der Sensor miteinander verbunden wurden und beide Geräte an ein Netzgerät mit 5V Gleichspannung angeschlossen wurden.
-Danach gab es noch eine Einweisung in das Oszilloskop. Gegenüber vom Sensor wurde eine kleine Holzspanplatte als zu messendes Objekt platziert. Diese Holzplatte wurde im Abstand von 13-70cm dann in gleichmäßigen abständen von je 3cm nach hinten verrückt, um verschiedene Messergebnisse zu erhalten.
+Der Aufbau erfolgt, indem das Oszilloskop sowie der Sensor miteinander verbunden werden und beide Geräte an ein Netzgerät mit 5V Gleichspannung angeschlossen werden.
+Danach gibt es noch eine Einweisung in das Oszilloskop. Gegenüber vom Sensor wird eine kleine Holzspanplatte als zu messendes Objekt platziert. Diese Holzplatte wird im Abstand von 13-70cm dann in gleichmäßigen abständen von je 3cm nach hinten verrückt, um verschiedene Messergebnisse zu erhalten.
 
 \subsection*{Messprinzip}
 \begin{flushleft}
@@ -50,7 +50,7 @@ Oszilloskop abgelesen und per Hand in ein Blatt eingetragen, diese Messwerte kö
 folgender Tabelle entnehmen:
 \begin{table}[H]
 \begin{tabular}{|c|c|c|}
-Entfernung & Spannung & V \\ 
+Entfernung & Spannung & $\Delta$ V \\ 
 \hline 
 10 cm & 1,34 V & 56,0 mV \\ 
 \hline 
@@ -101,27 +101,117 @@ Entfernung & Spannung & V \\
 \caption{Messwerte per Hand} 
 \end{table}
 	
-
-	
-	
-
-
-
 Anzumerken sei noch, dass wir zum Teil durch einen Ablesefehler falsche werte in die Tabelle eingetragen haben.
-Neben dem ablesen per Hand, wurden die Messwerte noch per USB verbindung an den PC im Labor übertragen und mithilfe der Software "OpenChoice Dekstop" ausgelesen und im "csv\dq ~Excel format gespeichert. 
+Neben dem ablesen per Hand, wurden die Messwerte noch per USB verbindung an den PC im Labor übertragen und mithilfe der Software "OpenChoice Dekstop\dq ~ausgelesen und im "csv\dq ~Excel format gespeichert. 
 \end{flushleft}
 
 \section{Auswertung}
 \label{chap:VERSUCH_1_AUSWERTUNG}
 \begin{flushleft}
-Zur auswertung und verarbeitung der Messwerte, verwenden wir die Bibliothek "Numpy" welche wir in der Skriptsprache Python verwenden. Der erste Schritt zur auswertung der Daten, besteht darin die Dateien mit den Messwerten einzulesen. Dies erfolgt mithilfe des Numpy befehls "genfromtxt", welcher uns aus einer Textdatei ein Array von Daten erstellt. Da wir die Dateien nach dem Schema z.B 13cm.csv abgespeichert haben, können wir dies ganz einfach mithilfe einer Schleife bewerkstelligen. Beim Einlesen der Daten ist noch zu beachten, dass wir erst in der Zeile 1000 mit dem Einlesen beginnen. Dies wird in der Versuchsanleitung empfohlen, da sich der Sensor erst einpendeln muss. 
+Zur auswertung und verarbeitung der Messwerte, verwenden wir die Bibliothek "Numpy" welche wir in der Skriptsprache Python verwenden. Der erste Schritt zur auswertung der Daten, besteht darin die Dateien mit den Messwerten einzulesen. Dies erfolgt mithilfe des Numpy befehls "genfromtxt()", welcher uns aus einer Textdatei ein Array von Daten erstellt. Da wir die Dateien nach dem Schema z.B 13cm.csv abgespeichert haben, können wir dies ganz einfach mithilfe einer Schleife bewerkstelligen. Beim Einlesen der Daten ist noch zu beachten, dass wir erst in der Zeile 1000 mit dem Einlesen beginnen. Dies wird in der Versuchsanleitung empfohlen, da sich der Sensor erst einpendeln muss. 
 
-Nun berechnet man für jede Messung den Mittelwert. Dies erfolgt mit der Numpy funktion "mean". Hier werden alle Werte addiert und durch die Anzahl der Messwerte dividiert.
+Nun berechnet man für jede Messung den Mittelwert. Dies erfolgt mit der Numpy funktion "mean()". Hier werden alle Werte addiert und durch die Anzahl der Messwerte dividiert.
+
+
+
 \begin{figure}[H]
 \includegraphics[]{media/messwerte.png}
 \caption{Mittelwerte}
 \end{figure}
 Als nächstes brauchen wir noch die jeweilige Standartabweichung. Für diese brauchen wir die Funktion \dq std\dq ~ ebenfalls aus der Numpy Bibliothek.
+\begin{table}
+\begin{tabular}{|c|c|c|}
+\hline 
+Entfernung & Mittelwert & Standartabweichung \\ 
+\hline 
+10 cm & 1.3391201
+ & 0.00574386629371V
+ \\ 
+\hline 
+13 cm & 1.22576325988V
+ & 0.0166334830328V
+ \\ 
+\hline 
+16 cm & 1.05101764772V
+ & 0.0165499564713V
+ \\ 
+\hline 
+19 cm & 0.938982439868V
+ & 0.0189291265659V
+ \\ 
+\hline 
+22 cm & 0.882236845374V
+ & 0.0182509176039V
+ \\ 
+\hline 
+25 cm & 0.804000026445V
+ & 0.0224838437952V
+ \\ 
+\hline 
+28 cm & 0.745923234034V
+ & 0.0223762822882V
+ \\ 
+\hline 
+31 cm & 0.70334403249V
+ & 0.0189167083736V
+ \\ 
+\hline 
+34 cm & 0.653206416178V
+ & 0.0228134146173V
+ \\ 
+\hline 
+37 cm & 0.633350426388V
+ & 0.0225610041992V
+ \\ 
+\hline 
+40 cm & 0.593459232473V
+ & 0.019750009348V
+ \\ 
+\hline 
+43 cm & 0.594192025995V
+ & 0.0235310489508V
+ \\ 
+\hline 
+46 cm & 0.552422423208V
+ & 0.0181168037736V
+ \\ 
+\hline 
+49 cm & 0.491382428169V
+ & 0.0232656181432V
+ \\ 
+\hline 
+52 cm & 0.471040024245V
+ & 0.0219077354691V
+ \\ 
+\hline 
+55 cm & 0.451324820685V
+ & 0.0217759901718V
+ \\ 
+\hline 
+58 cm & 0.429868818128V
+ & 0.0205987676122V
+ \\ 
+\hline 
+61 cm & 0.412169615567V
+ & 0.0219869816164V
+ \\ 
+\hline 
+64 cm & 0.412246415389V
+ & 0.0211276546892V
+ \\ 
+\hline 
+67 cm & 0.392918414868V
+ & 0.022265913587V
+ \\ 
+\hline 
+70 cm & 0.374496017952V
+ & 0.0257692589278V
+ \\ 
+\hline 
+\end{tabular} 
+\label{Mittelwerte und Standartabweichung}
+\caption{Mittelwerte und Standartabweichung}
+\end{table}
 \end{flushleft}
 
 \section{Interpretation}

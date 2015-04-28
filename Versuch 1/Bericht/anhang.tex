@@ -1,6 +1,6 @@
 % select subfiles base file
 \documentclass[TGAI_Laborbericht.tex]{subfiles}
-\usepackage{listings}
+%\usepackage{listings}
 \begin{document}
 
 %\phantomsection
@@ -14,15 +14,16 @@
 \section{Quellcode}
 \label{chap:APPENDIX_SOURCECODE}
 
-\subsection{Quellcode Versuch 1}
-\label{chap:APPENDIX_SOURCECODE_V1}
-
+\lstinputlisting[language=Python, breaklines=true]{media/linear_regression.py}
 
 
 \section{Messergebnisse}
 \label{chap:APPENDIX_MEASUREMENT_SOURCE}
 
-
+\begin{figure}[H]
+\includegraphics[scale=0.6]{media/Messprotokoll.jpg}
+\caption{Messprotokoll}
+\end{figure}
 %\begin{lstlisting}[style=VHDL, frame=single, caption=System Simulation, captionpos=b, label=lst:sys_sim]
 %-- ADC Test Suite System Testbench
 %--
