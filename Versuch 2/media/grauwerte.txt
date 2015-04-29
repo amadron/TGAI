@@ -1,0 +1,30 @@
+Versuch1:
+Mittelwerte:
+weiﬂ:		212.999089506
+hellgrau:	187.409228395
+grau:		137.798001543
+dunkelgrau:	82.7268364198
+schwarz:	42.7226466049
+
+
+Standardabweichung:
+weiﬂ:		4.96548417796
+hellgrau:	6.13117423931
+grau:		4.78215632893
+dunkelgrau:	3.67189805988
+schwarz:	6.93616814165
+
+Verbessert:
+Mittelwerte:
+weiﬂ:		224.655131173
+hellgrau:	190.358688272
+grau:		135.730864198
+dunkelgrau:	80.9926388889
+schwarz:	41.8664660494
+
+Standardabweichung:
+weiﬂ:		3.4856729337
+hellgrau:	4.31304726086
+grau:		4.87338968593
+dunkelgrau:	4.92684835396
+schwarz:	7.196487838
