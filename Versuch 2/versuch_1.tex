@@ -9,16 +9,21 @@
 
 \section{Fragestellung, Messprinzip, Aufbau, Messmittel}
 \label{chap:VERSUCH_1_FRAGESTELLUNG}
-Zuerst haben wir geschaut, wie gut die Webcam einen Grauwertverlauf aufnimmt und kann da das Muster bekannt ist, die Widergabequalität des Kamerasensors messen. 
+Zuerst haben wir geschaut, wie gut die Webcam einen Grauwertverlauf aufnimmt und können, da das Muster bekannt ist, die Widergabequalität des Kamerasensors messen. 
 
 \subsection{Messmittel}
 
-Als Messmittel dient eine Webcam der Firma Logitech, welche per USB an den örtlichen Laborrechner angeschlossen ist. Wir steuern die Kamera über das Python modul "OpenCV" an.
+Als Messmittel dient eine Webcam vom Modell "c270" der Firma Logitech, und hat eine Auflösung von 720p, was einer Auflösung von 1280x720 Pixeln entspricht. Dies sind 921600 Bildpunkte.
 
 \subsection{Messprinzip}
 
-\subsection{Aufbau}
+Der Sensor ist ein Integrierter Schaltkreis, der aus eine Matrix von mehreren Millionen von Fotozellen besteht. Jede dieser Fotozellen stellt einen Pixel des Sensors dar und wandelt das einfallende Licht auf Grund des inneren photoelektrischen Effekts in elektrische Ladung um.
+Ein Pixel selbst besteht aus einer Mikrolinse, einem Farbfilter, einer Reihe von Leiterbahnen, zwei Elektroden, einer isolierenden Oxidschicht und dotiertem Silizium.
+Die Mikrolinse bündelt das Licht, so dass möglichst viel Licht auf den lichtempfindlichen Teil des Pixels treffen kann.
+Photodioden reagieren auf Licht in einem breiten Farbspektrum. Mit ihnen kann man die Helligkeit messen und in elektrische Information umwandeln. Um Farbinformationen zu erhalten, ist vor jedem Pixel ein Farbfilter angebracht, welcher nur Licht eines bestimmten Spektralbereichs passieren lässt. Aus der Farbinformation benachbarter Pixel kann die Kamerasoftware sich dann die Farben eines jeden Pixels errechnen.
 
+\subsection{Aufbau}
+Die Kamera ist an einem Ständer befestigt, an welchem die Neigung der Kamera sowie die höhe durch ein Rad eingestellt. Die kamera ist somit parallel zur Tischoberfläche positioniert. Die kamera wird per USB an den Laborrechner angeschlossen. Das aufzunehmende Objekt ist ein Graukeil. Ein Graukeil ist eine Platte, die fünf verschiedene Graustufen aufgedruckt hat.
 
 \section{Messwerte}
 \label{chap:VERSUCH_1_MESSWERTE}
