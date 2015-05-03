@@ -1,12 +1,23 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Debian) (preloaded format=pdflatex 2015.4.14)  29 APR 2015 14:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Debian) (preloaded format=pdflatex 2015.4.14)  29 APR 2015 14:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**TGAI_Laborbericht.tex
-(./TGAI_Laborbericht.tex
+**versuch_4.tex
+(./versuch_4.tex
 LaTeX2e <2014/05/01>
 Babel <3.9k> and hyphenation patterns for 79 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/subfiles/subfiles.cls
+Document Class: subfiles 2012/05/23 Federico Garcia
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks14
+\verbatim@line=\toks15
+\verbatim@in@stream=\read1
+)
+Preamble taken from file `TGAI_Laborbericht.tex'
+(./TGAI_Laborbericht.tex
 runsystem(sort_acronym.bat)...disabled (restricted).
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
@@ -31,7 +42,7 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
+\KV@toks@=\toks16
 )
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
@@ -55,7 +66,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutheight=\dimen108
 \Gm@layouthoffset=\dimen109
 \Gm@layoutvoffset=\dimen110
-\Gm@dimlist=\toks15
+\Gm@dimlist=\toks17
 )
 (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
@@ -140,15 +151,18 @@ Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
 Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
 Package: xcolor-patch 2011/01/30 xcolor patch
 Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
 Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+
+
+Package auxhook Warning: Cannot patch \document,
+(auxhook)                using \AtBeginDocument instead.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen111
@@ -254,8 +268,8 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2014/04/30 v1.2b Input encoding file
-\inpenc@prehook=\toks16
-\inpenc@posthook=\toks17
+\inpenc@prehook=\toks18
+\inpenc@posthook=\toks19
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
@@ -477,7 +491,7 @@ Now handling font encoding PU ...
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip44
 \enit@outerparindent=\dimen116
-\enit@toks=\toks18
+\enit@toks=\toks20
 \enit@inbox=\box26
 \enitdp@description=\count103
 )
@@ -488,7 +502,7 @@ Package: tabularx 2014/05/13 v2.10 `tabularx' package (DPC)
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen117
 \extrarowheight=\dimen118
-\NC@list=\toks19
+\NC@list=\toks21
 \extratabsurround=\skip45
 \backup@length=\skip46
 )
@@ -498,7 +512,7 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \TX@target=\dimen122
 \TX@delta=\dimen123
 \TX@cols=\count104
-\TX@ftn=\toks20
+\TX@ftn=\toks22
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
@@ -510,7 +524,7 @@ Package: amstext 2000/06/29 v2.01
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks21
+\@emptytoks=\toks23
 \ex@=\dimen124
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -540,21 +554,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \dotsspace@=\muskip11
 \c@parentequation=\count112
 \dspbrk@lvl=\count113
-\tag@help=\toks22
+\tag@help=\toks24
 \row@=\count114
 \column@=\count115
 \maxfields@=\count116
-\andhelp@=\toks23
+\andhelp@=\toks25
 \eqnshift@=\dimen127
 \alignsep@=\dimen128
 \tagshift@=\dimen129
 \tagwidth@=\dimen130
 \totwidth@=\dimen131
 \lineht@=\dimen132
-\@envbody=\toks24
+\@envbody=\toks26
 \multlinegap=\skip48
 \multlinetaggap=\skip49
-\mathdisplay@stack=\toks25
+\mathdisplay@stack=\toks27
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
@@ -569,15 +583,15 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2004/08/06 v2.20
-\thm@style=\toks26
-\thm@bodyfont=\toks27
-\thm@headfont=\toks28
-\thm@notefont=\toks29
-\thm@headpunct=\toks30
+\thm@style=\toks28
+\thm@bodyfont=\toks29
+\thm@headfont=\toks30
+\thm@notefont=\toks31
+\thm@headpunct=\toks32
 \thm@preskip=\skip53
 \thm@postskip=\skip54
 \thm@headsep=\skip55
-\dth@everypar=\toks31
+\dth@everypar=\toks33
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -1216,7 +1230,7 @@ Package: suffix 2006/07/15 1.5 Variant command support
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\AC@clearlist=\toks32
+\AC@clearlist=\toks34
 )
 (/usr/share/texlive/texmf-dist/tex/latex/seqsplit/seqsplit.sty
 Package: seqsplit 2006/08/07 v0.1 Splitting long sequences (DNA, RNA, proteins,
@@ -1224,13 +1238,7 @@ Package: seqsplit 2006/08/07 v0.1 Splitting long sequences (DNA, RNA, proteins,
 )
 (/usr/share/texlive/texmf-dist/tex/latex/subfiles/subfiles.sty
 Package: subfiles 2012/05/23 Federico Garcia
-
-(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks33
-\verbatim@line=\toks34
-\verbatim@in@stream=\read1
-))
+)
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
@@ -1825,46 +1833,40 @@ File: pgflibraryplotmarks.code.tex 2013/07/20 v3.0.0 (rcs-revision 1.13)
 )))
 \figureheight=\skip66
 \figurewidth=\skip67
- (./TGAI_Laborbericht.aux (./preface/cover.aux)
-(./preface/abstract.aux) (./preface/tableofcontents.aux)
-(./preface/listoffigures.aux) (./preface/listoftables.aux)
-(./preface/lstlistoflistings.aux) (./preface/listacronym.aux)
-(./appendix/bibliography.aux))
-\openout1 = `TGAI_Laborbericht.aux'.
+)) (./versuch_4.aux)
+\openout1 = `versuch_4.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 199.
-LaTeX Font Info:    ... okay on input line 199.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 199.
-LaTeX Font Info:    ... okay on input line 199.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 199.
-LaTeX Font Info:    ... okay on input line 199.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 199.
-LaTeX Font Info:    ... okay on input line 199.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 199.
-LaTeX Font Info:    ... okay on input line 199.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 199.
-LaTeX Font Info:    ... okay on input line 199.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 199.
-LaTeX Font Info:    ... okay on input line 199.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 199.
-LaTeX Font Info:    ... okay on input line 199.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 199.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 199.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 199.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 199.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 199.
-
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 3.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2013/09/01 v1.0 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 199.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 199.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -1873,7 +1875,7 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: a4paper
+* paper: <default>
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
@@ -1904,7 +1906,7 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box48
-Package hyperref Info: Link coloring OFF on input line 199.
+Package hyperref Info: Link coloring OFF on input line 3.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -1913,13 +1915,13 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count163
 )
-LaTeX Info: Redefining \ref on input line 199.
-LaTeX Info: Redefining \pageref on input line 199.
-LaTeX Info: Redefining \nameref on input line 199.
+LaTeX Info: Redefining \ref on input line 3.
+LaTeX Info: Redefining \pageref on input line 3.
+LaTeX Info: Redefining \nameref on input line 3.
 
-(./TGAI_Laborbericht.out) (./TGAI_Laborbericht.out)
+(./versuch_4.out) (./versuch_4.out)
 \@outlinefile=\write5
-\openout5 = `TGAI_Laborbericht.out'.
+\openout5 = `versuch_4.out'.
 
 
 babelbib: Set bibliography fall-back language to ngerman
@@ -1952,7 +1954,7 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             or
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
-(lastpage)             ! on input line 199.
+(lastpage)             ! on input line 3.
  ABD: EveryShipout initializing macros
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
@@ -1960,241 +1962,89 @@ Package caption Info: End \AtBeginDocument code.
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.10}).
 
-\openout2 = `preface/cover.aux'.
-
-(./preface/cover.tex <preface/htwg-logo.pdf, id=163, 1597.97pt x 174.6525pt>
-File: preface/htwg-logo.pdf Graphic file (type pdf)
-
-<use preface/htwg-logo.pdf>
-Package pdftex.def Info: preface/htwg-logo.pdf used on input line 7.
-(pdftex.def)             Requested size: 446.70818pt x 48.8224pt.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 14.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 17.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 20.
- [1
-
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./preface/htwg-logo.pdf>])
-\openout2 = `preface/abstract.aux'.
-
- (./preface/abstract.tex
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 9.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
-File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
-)
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 9.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
-File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
-)
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 9.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
-[]|[]\T1/ptm/m/n/12 juergen.keppler@htwg-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-[]|[]\T1/ptm/m/n/12 martin.miller@htwg-
- []
-
-)pdfTeX warning (ext4): destination with the same identifier (name{page.I}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.205 \include{preface/abstract}
-                                 [1
-
-
-]
-\openout2 = `preface/tableofcontents.aux'.
-
- (./preface/tableofcontents.tex
-(./TGAI_Laborbericht.toc
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 2.
- [2
-
-
-
-
-])
-\tf@toc=\write6
-\openout6 = `TGAI_Laborbericht.toc'.
-
- [3])
-\openout2 = `preface/listoffigures.aux'.
-
- (./preface/listoffigures.tex
-(./TGAI_Laborbericht.lof)
-\tf@lof=\write7
-\openout7 = `TGAI_Laborbericht.lof'.
-
- [4
-
-
-
-])
-\openout2 = `preface/listoftables.aux'.
-
- (./preface/listoftables.tex
-(./TGAI_Laborbericht.lot)
-\tf@lot=\write8
-\openout8 = `TGAI_Laborbericht.lot'.
-
- [5
-
-
-
-])
-\openout2 = `preface/lstlistoflistings.aux'.
-
- (./preface/lstlistoflistings.tex
-(./TGAI_Laborbericht.lol)
-\tf@lol=\write9
-\openout9 = `TGAI_Laborbericht.lol'.
-
- [6
-
-
-
-])
-\openout2 = `preface/listacronym.aux'.
-
- (./preface/listacronym.tex
-LaTeX Font Info:    Try loading font information for T1+phv on input line 6.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
-File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
-)
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 6.
-
-(./preface/acronym.tex) [7
-
-
-
-
-
-]) (./einleitung.tex
  1.
-) (./versuch_1.tex [1
-
-
-
-]
- 2.
-[2
-
-] <media/graubild.png, id=275, 642.4pt x 481.8pt>
-File: media/graubild.png Graphic file (type png)
- <use media/graubild.png>
-Package pdftex.def Info: media/graubild.png used on input line 34.
-(pdftex.def)             Requested size: 308.71106pt x 231.54073pt.
-
-[3]) (./versuch_2.tex [4 <./media/graubild.png (PNG copy)>]
- 3.
-[5
-
-] <media/test.png, id=289, 642.4pt x 481.8pt>
-File: media/test.png Graphic file (type png)
- <use media/test.png>
-Package pdftex.def Info: media/test.png used on input line 40.
-(pdftex.def)             Requested size: 308.71106pt x 231.54073pt.
- [6])
-(./versuch_3.tex [7 <./media/test.png (PNG copy)>]
- 4.
-[8
-
-]) (./versuch_4.tex [9]
- 5.
-<media/stuck&hotpixel.png, id=307, 481.8pt x 361.35pt>
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 5.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 8.
+<media/stuck&hotpixel.png, id=27, 481.8pt x 361.35pt>
 File: media/stuck&hotpixel.png Graphic file (type png)
 
 <use media/stuck&hotpixel.png>
 Package pdftex.def Info: media/stuck&hotpixel.png used on input line 16.
 (pdftex.def)             Requested size: 308.71106pt x 231.5389pt.
- [10
+ [1
 
-]
-<media/Weissbild.png, id=313, 642.4pt x 481.8pt>
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] <media/Weissbild.png, id=3
+6, 642.4pt x 481.8pt>
 File: media/Weissbild.png Graphic file (type png)
- <use media/Weissbild.png>
+
+<use media/Weissbild.png>
 Package pdftex.def Info: media/Weissbild.png used on input line 22.
 (pdftex.def)             Requested size: 308.71106pt x 231.54073pt.
+ [2 <./media/stuck&hotpixel.png> <./media/Weissbild.png (PNG copy)>]
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 32
+.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 32
+.
 
-[11 <./media/stuck&hotpixel.png> <./media/Weissbild.png (PNG copy)>]
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 32.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
 LaTeX Font Info:    Try loading font information for TS1+ptm on input line 34.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Overfull \hbox (73.67989pt too wide) in paragraph at lines 32--49
+Overfull \hbox (46.82515pt too wide) in paragraph at lines 32--49
 [][] 
  []
 
-) (./anhang.tex [12] [13
 
-])
-
-LaTeX Warning: Citation `Fra2014r' on page 14 undefined on input line 274.
-
-[14
-
-]
-\openout2 = `appendix/bibliography.aux'.
-
- (./appendix/bibliography.tex
-No file TGAI_Laborbericht.bbl.
-) 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 281.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 281.
-(./TGAI_Laborbericht.aux (./preface/cover.aux) (./preface/abstract.aux)
-(./preface/tableofcontents.aux) (./preface/listoffigures.aux)
-(./preface/listoftables.aux) (./preface/lstlistoflistings.aux)
-(./preface/listacronym.aux) (./appendix/bibliography.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 281.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 281.
-Package rerunfilecheck Info: File `TGAI_Laborbericht.out' has not changed.
-(rerunfilecheck)             Checksum: 24CF935AA285DBC1585A3A2DC374A06C;5228.
+[3]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 55.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 55.
+ (./versuch_4.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 55.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 55.
+Package rerunfilecheck Info: File `versuch_4.out' has not changed.
+(rerunfilecheck)             Checksum: 1D266B7F459E7D5568E4583BB8D67C43;711.
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 281.
  ) 
 Here is how much of TeX's memory you used:
- 37067 strings out of 493104
- 763254 string characters out of 6136932
- 934978 words of memory out of 5000000
- 39682 multiletter control sequences out of 15000+600000
- 40272 words of font info for 71 fonts, out of 8000000 for 9000
+ 36740 strings out of 493104
+ 757924 string characters out of 6136932
+ 935253 words of memory out of 5000000
+ 39506 multiletter control sequences out of 15000+600000
+ 31389 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,12n,83p,1003b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,11n,85p,772b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/times/utmr8a.pfb>
-Output written on TGAI_Laborbericht.pdf (22 pages, 467934 bytes).
+Output written on versuch_4.pdf (3 pages, 104496 bytes).
 PDF statistics:
- 360 PDF objects out of 1000 (max. 8388607)
- 321 compressed objects within 4 object streams
- 70 named destinations out of 1000 (max. 500000)
- 350 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 62 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
+ 11 named destinations out of 1000 (max. 500000)
+ 63 words of extra memory for PDF output out of 10000 (max. 10000000)
 
