@@ -1,0 +1,35 @@
+% select subfiles base file
+\documentclass[TGAI_Laborbericht.tex]{subfiles}
+\begin{document}
+
+
+\chapter{Versuch 2}
+\label{chap:VERSUCH_2}
+
+
+\section{Fragestellung, Messprinzip, Aufbau, Messmittel}
+\label{chap:VERSUCH_2_FRAGESTELLUNG}
+\subsection{Fragestellung}
+Diesmal berechnen wir den theoretischen Quantisierungsfehler des D/A Wandlers. Danach vergleichen wir die ausgegebene Spannungen des D/A Wandlers mit den eingestellten Werten.
+\subsection{Messprinzip}
+Das Keithley TRMS 179 funktioniert nach dem Dual-Slope-Verfahren.
+
+\subsection{Aufbau}
+Nun haben wir den Ausgang des D/A Wandlers an das Keithley TRMS 179 angeschlossen.
+
+\subsection{Messmittel}
+Als Messmittel dienen das Keythley TMRS 179 und der D/A Wandler.
+
+\section{Messwerte}
+\label{chap:VERSUCH_2_MESSWERTE}
+Mithilfe eines Python skriptes lassen wir den D/A Wandler, Spannungen im Bereich von 0,5V bis 5V in 0,5V Schritten ausgeben um die Standardabweichung berechnen zu können.  
+
+\section{Auswertung}
+\label{chap:VERSUCH_2_AUSWERTUNG}
+Jetzt können wir die Standardabweichung mit dem Quantisierungsfehler vergleichen und stellen fest, dass die Standardabweichung ungefähr halb so groß ist wie der Quantisierungsfehler. Desweiteren zeigt sich bei höherer Spannung eine höhere Abweichung vom eingegebenen Wert.
+
+\section{Interpretation}
+\label{chap:VERSUCH_2_INTERPRETATION}
+Die höhere Abweichung bei höherer Spannung lässt sich vermutlich auf eine nichtlineare Quantisierungskennlinie zurückführen.
+
+\end{document}

@@ -1,0 +1,42 @@
+% select subfiles base file
+\documentclass[TGAI_Laborbericht.tex]{subfiles}
+\begin{document}
+
+%\phantomsection
+\chapter*{Anhang}
+\label{chap:APPENDIX}
+\addcontentsline{toc}{chapter}{Anhang}
+%\setcounter{chapter}{0}
+\addtocounter{chapter}{1}
+\setcounter{section}{0}
+
+\section{Quellcode}
+\label{chap:APPENDIX_SOURCECODE}
+\lstinputlisting[language=python]{media/micinput.py}
+
+
+
+\section{Messergebnisse}
+\label{chap:APPENDIX_MEASUREMENT_SOURCE}
+\begin{figure}[H]
+	\includegraphics[width=2\textwidth, angle=-90]{media/messergebnisse.jpg}
+	\label{Erfolgsquote}
+	\caption{Erfolgsquote}
+\end{figure}
+
+%\begin{lstlisting}[style=VHDL, frame=single, caption=System Simulation, captionpos=b, label=lst:sys_sim]
+%-- ADC Test Suite System Testbench
+%--
+%-- Author: Martin Miller
+%-- Date:   16.08.2014
+%-- 
+%
+%ENTITY system_tb IS
+%   -- empty
+%END system_tb;
+%
+%\end{lstlisting}
+
+\clearpage
+
+\end{document}

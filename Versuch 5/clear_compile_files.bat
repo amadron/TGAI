@@ -1,0 +1,1 @@
+del /S *.aux *.bbl *.blg *.log *.out *.bak *.dvi *.lof *.lol *.lot *.toc einleitung.pdf versuch_1.pdf versuch_2.pdf versuch_3.pdf versuch_4.pdf anhang.pdf *.synctex.gz preface\*.aux

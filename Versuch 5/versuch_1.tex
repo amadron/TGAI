@@ -1,0 +1,37 @@
+% select subfiles base file
+\documentclass[TGAI_Laborbericht.tex]{subfiles}
+\begin{document}
+
+
+\chapter{Versuch 1}
+\label{chap:VERSUCH_1}
+
+
+\section{Fragestellung, Messprinzip, Aufbau, Messmittel}
+\label{chap:VERSUCH_1_FRAGESTELLUNG}
+\subsection{Fragestellung}
+Zuerst sollen wir den Quantisierungsfehler berechnen. Nachfolgend noch die jeweiligen Standardabweichungen des analogen Messgeräts sowie des A/D Wandlers um diese anschließend vergleichen zu können. 
+
+\subsection{Messprinzip}
+Der A/D Wandler tastet das Eingangssignal in einer festgelegten Abtastfrequenz ab. Das Multimeter PM 2503 von Philips verwendet zur Messung ein Drehspulmesswerk.
+
+\subsection{Aufbau}
+Der A/D Wandler ist per USB Kabel mit dem Laborrechner verbunden. Außerdem ist ein Ausgang mit dem Oszilloskop sowie ein Eingang mit einem Netzteil verbunden. Zusätzlich zum A/D Wandler haben wir an das Netzteil noch ein feinmessgerät, das Keithley TRMS 179 sowie ein analoges Multimeter das Philips PM 2503.
+
+\subsection{Messmittel}
+Als Messmittel dient und ein Pythonskript zum Auslesen der Ausgangsspannung des A/D Wandlers und das analoge Multimeter.  
+
+\section{Messwerte}
+\label{chap:VERSUCH_1_MESSWERTE}
+Um das Genauigkeitsmaß zu berechnen führen wir mehrere Spannungsmessungen durch. Hierzu stellen wir am Netzteil jeweils die Spannungen von 1 bis 10 Volt in 1 V schritten ein und entnehmen die Werte jeweils vom Feinmessgerät, dem Multimeter als auch dem A/D Wandler. (Messwerte im Anhang)
+
+\section{Auswertung}
+\label{chap:VERSUCH_1_AUSWERTUNG}
+Zuerst berechnen wir den Theoretischen Quantisierungsfehler mithilfe der Formel \[\Delta U = \frac{U_{Max}-U_{Min}}{2^{n}} \] dieser beträgt 0,0098 V. Als nächstes berechnen wir noch die Standardabweichung für das analoge Messgerät  und den A/D Wandler. Der des analogen Messgeräts beträgt 0,0021 V und der des A/D Wandlers 0,0011 V. Dazu verwenden wir folgende Formel: 
+
+\section{Interpretation}
+\label{chap:VERSUCH_1_INTERPRETATION}
+Die Standardabweichung des analogen Messgerätes ist um einiges höher als die des A/D Wandlers obwohl der theoretische Quantisierungsfehler des A/D Wandlers wesentlich höher ist. Die Ungenauigkeit des analogen Messgeräts ist auf die nicht ausreichend feine Messskala zurückzuführen.
+Das die Standardabweichung des A/D Wandlers wesentlich niedriger als der theoretische Quantisierungsfehler ist, liegt daran dass sich die von uns gemessenen Werte vermutlich unmittelbar nach einem Stufenübergang der Quantisierungskennlinie befinden.
+
+\end{document}

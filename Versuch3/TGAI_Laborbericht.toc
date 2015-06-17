@@ -1,0 +1,27 @@
+\select@language {ngerman}
+\contentsline {chapter}{Abbildungsverzeichnis}{IV}{section*.2}
+\contentsline {chapter}{Tabellenverzeichnis}{V}{section*.4}
+\contentsline {chapter}{Listingverzeichnis}{VI}{chapter*.7}
+\contentsline {chapter}{Abk\IeC {\"u}rzungsverzeichnis}{VII}{section*.8}
+\contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Versuch 1}{2}{chapter.2}
+\contentsline {section}{\numberline {2.1}Fragestellung, Messprinzip, Aufbau, Messmittel}{2}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Messmittel}{2}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Messprinzip}{2}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Aufbau}{3}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}Messwerte}{3}{section.2.2}
+\contentsline {section}{\numberline {2.3}Auswertung}{4}{section.2.3}
+\contentsline {section}{\numberline {2.4}Interpretation}{4}{section.2.4}
+\contentsline {chapter}{\numberline {3}Versuch 2}{6}{chapter.3}
+\contentsline {section}{\numberline {3.1}Fragestellung, Messprinzip, Aufbau, Messmittel}{6}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Messprinzip}{6}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Messmittel}{6}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Aufbau}{6}{subsection.3.1.3}
+\contentsline {section}{\numberline {3.2}Messwerte}{6}{section.3.2}
+\contentsline {section}{\numberline {3.3}Auswertung}{7}{section.3.3}
+\contentsline {section}{\numberline {3.4}Interpretation}{7}{section.3.4}
+\contentsline {chapter}{Anhang}{10}{chapter*.16}
+\contentsline {section}{\numberline {A.1}Quellcode}{10}{section.4.1}
+\contentsline {subsection}{\numberline {A.1.1}Quellcode Versuch 1}{10}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {A.1.2}Quellcode Versuch 2}{11}{subsection.4.1.2}
+\contentsline {section}{\numberline {A.2}Messergebnisse}{13}{section.4.2}
