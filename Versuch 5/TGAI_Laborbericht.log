@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Debian) (preloaded format=pdflatex 2015.4.14)  17 JUN 2015 14:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Debian) (preloaded format=pdflatex 2015.4.14)  17 JUN 2015 17:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1825,8 +1825,13 @@ File: pgflibraryplotmarks.code.tex 2013/07/20 v3.0.0 (rcs-revision 1.13)
 )))
 \figureheight=\skip66
 \figurewidth=\skip67
+ (./TGAI_Laborbericht.aux (./preface/cover.aux)
+(./preface/abstract.aux) (./preface/tableofcontents.aux)
+(./preface/listoffigures.aux) (./preface/lstlistoflistings.aux)
 
-No file TGAI_Laborbericht.aux.
+LaTeX Warning: Label `Hoch' multiply defined.
+
+(./appendix/bibliography.aux))
 \openout1 = `TGAI_Laborbericht.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 199.
@@ -1847,6 +1852,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 199.
 LaTeX Font Info:    ... okay on input line 199.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 199.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 199.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
@@ -1912,6 +1918,8 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 199.
 LaTeX Info: Redefining \pageref on input line 199.
 LaTeX Info: Redefining \nameref on input line 199.
+
+(./TGAI_Laborbericht.out) (./TGAI_Laborbericht.out)
 \@outlinefile=\write5
 \openout5 = `TGAI_Laborbericht.out'.
 
@@ -1956,7 +1964,7 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.10}).
 
 \openout2 = `preface/cover.aux'.
 
-(./preface/cover.tex <preface/htwg-logo.pdf, id=7, 1597.97pt x 174.6525pt>
+(./preface/cover.tex <preface/htwg-logo.pdf, id=179, 1597.97pt x 174.6525pt>
 File: preface/htwg-logo.pdf Graphic file (type pdf)
 
 <use preface/htwg-logo.pdf>
@@ -2020,32 +2028,25 @@ l.205 \include{preface/abstract}
 \openout2 = `preface/tableofcontents.aux'.
 
  (./preface/tableofcontents.tex
-\tf@toc=\write6
-\openout6 = `TGAI_Laborbericht.toc'.
-
+(./TGAI_Laborbericht.toc
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 2.
  [2
 
 
 
 
 ])
+\tf@toc=\write6
+\openout6 = `TGAI_Laborbericht.toc'.
+
+ [3])
 \openout2 = `preface/listoffigures.aux'.
 
-
-(./preface/listoffigures.tex
+ (./preface/listoffigures.tex
+(./TGAI_Laborbericht.lof)
 \tf@lof=\write7
 \openout7 = `TGAI_Laborbericht.lof'.
-
- [3
-
-
-
-])
-\openout2 = `preface/listoftables.aux'.
-
- (./preface/listoftables.tex
-\tf@lot=\write8
-\openout8 = `TGAI_Laborbericht.lot'.
 
  [4
 
@@ -2054,39 +2055,18 @@ l.205 \include{preface/abstract}
 ])
 \openout2 = `preface/lstlistoflistings.aux'.
 
-
-(./preface/lstlistoflistings.tex
-\tf@lol=\write9
-\openout9 = `TGAI_Laborbericht.lol'.
+ (./preface/lstlistoflistings.tex
+(./TGAI_Laborbericht.lol)
+\tf@lol=\write8
+\openout8 = `TGAI_Laborbericht.lol'.
 
  [5
-
-
-
-])
-\openout2 = `preface/listacronym.aux'.
-
- (./preface/listacronym.tex
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 6.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 6.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
-File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
-)
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 6.
-
-(./preface/acronym.tex) [6
-
-
 
 
 
 ]) (./einleitung.tex
  1.
 ) (./versuch_1.tex [1
-
 
 
 ]
@@ -2099,7 +2079,7 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
 
 ]) (./versuch_3.tex [5]
  4.
-<media/Sinus.png, id=106, 240.9pt x 225.84375pt>
+<media/Sinus.png, id=334, 240.9pt x 225.84375pt>
 File: media/Sinus.png Graphic file (type png)
  <use media/Sinus.png>
 Package pdftex.def Info: media/Sinus.png used on input line 27.
@@ -2107,7 +2087,7 @@ Package pdftex.def Info: media/Sinus.png used on input line 27.
  [6
 
 ]
-<media/sinus(10samples).png, id=119, 240.9pt x 225.84375pt>
+<media/sinus(10samples).png, id=339, 240.9pt x 225.84375pt>
 File: media/sinus(10samples).png Graphic file (type png)
 
 <use media/sinus(10samples).png>
@@ -2116,7 +2096,7 @@ Package pdftex.def Info: media/sinus(10samples).png used on input line 36.
  [7 <./media/Sinus.png (PNG copy)>])
 (./versuch_4.tex [8 <./media/sinus(10samples).png (PNG copy)>]
  5.
-<media/2000-fft.png, id=132, 770.88pt x 578.16pt>
+<media/2000-fft.png, id=349, 770.88pt x 578.16pt>
 File: media/2000-fft.png Graphic file (type png)
  <use media/2000-fft.png>
 Package pdftex.def Info: media/2000-fft.png used on input line 25.
@@ -2124,140 +2104,193 @@ Package pdftex.def Info: media/2000-fft.png used on input line 25.
 
 [9
 
-] <media/2000-signal.png, id=146, 770.88pt x 578.16pt>
+] <media/2000-signal.png, id=355, 770.88pt x 578.16pt>
 File: media/2000-signal.png Graphic file (type png)
 
 <use media/2000-signal.png>
 Package pdftex.def Info: media/2000-signal.png used on input line 31.
 (pdftex.def)             Requested size: 308.71106pt x 231.53339pt.
- <media/3000-fft.png, id=147, 770.88pt x 578.16pt>
+ <media/3000-fft.png, id=356, 770.88pt x 578.16pt>
 File: media/3000-fft.png Graphic file (type png)
 
 <use media/3000-fft.png>
 Package pdftex.def Info: media/3000-fft.png used on input line 37.
 (pdftex.def)             Requested size: 308.71106pt x 231.53339pt.
  [10 <./media/2000-fft.png> <./media/2000-signal.png>]
-<media/3000-signal.png, id=157, 770.88pt x 578.16pt>
+<media/3000-signal.png, id=363, 770.88pt x 578.16pt>
 File: media/3000-signal.png Graphic file (type png)
 
 <use media/3000-signal.png>
 Package pdftex.def Info: media/3000-signal.png used on input line 43.
 (pdftex.def)             Requested size: 308.71106pt x 231.53339pt.
- <media/4000-fft.png, id=158, 770.88pt x 578.16pt>
+ <media/4000-fft.png, id=364, 770.88pt x 578.16pt>
 File: media/4000-fft.png Graphic file (type png)
 
 <use media/4000-fft.png>
 Package pdftex.def Info: media/4000-fft.png used on input line 49.
 (pdftex.def)             Requested size: 308.71106pt x 231.53339pt.
  [11 <./media/3000-fft.png> <./media/3000-signal.png>]
-<media/4000-signal.png, id=167, 770.88pt x 578.16pt>
+<media/4000-signal.png, id=371, 770.88pt x 578.16pt>
 File: media/4000-signal.png Graphic file (type png)
 
 <use media/4000-signal.png>
 Package pdftex.def Info: media/4000-signal.png used on input line 55.
 (pdftex.def)             Requested size: 308.71106pt x 231.53339pt.
- <media/6000-fft.png, id=168, 770.88pt x 578.16pt>
+ <media/6000-fft.png, id=372, 770.88pt x 578.16pt>
 File: media/6000-fft.png Graphic file (type png)
 
 <use media/6000-fft.png>
 Package pdftex.def Info: media/6000-fft.png used on input line 61.
 (pdftex.def)             Requested size: 308.71106pt x 231.53339pt.
  [12 <./media/4000-fft.png> <./media/4000-signal.png>]
-<media/6000-signal.png, id=178, 770.88pt x 578.16pt>
+<media/6000-signal.png, id=379, 770.88pt x 578.16pt>
 File: media/6000-signal.png Graphic file (type png)
 
 <use media/6000-signal.png>
 Package pdftex.def Info: media/6000-signal.png used on input line 67.
 (pdftex.def)             Requested size: 308.71106pt x 231.53339pt.
- <media/7000-fft.png, id=179, 770.88pt x 578.16pt>
+ <media/7000-fft.png, id=380, 770.88pt x 578.16pt>
 File: media/7000-fft.png Graphic file (type png)
 
 <use media/7000-fft.png>
 Package pdftex.def Info: media/7000-fft.png used on input line 73.
 (pdftex.def)             Requested size: 308.71106pt x 231.53339pt.
  [13 <./media/6000-fft.png> <./media/6000-signal.png>]
-<media/7000-signal.png, id=188, 770.88pt x 578.16pt>
+<media/7000-signal.png, id=388, 770.88pt x 578.16pt>
 File: media/7000-signal.png Graphic file (type png)
 
 <use media/7000-signal.png>
 Package pdftex.def Info: media/7000-signal.png used on input line 79.
 (pdftex.def)             Requested size: 308.71106pt x 231.53339pt.
- <media/8000-fft.png, id=189, 770.88pt x 578.16pt>
+ <media/8000-fft.png, id=389, 770.88pt x 578.16pt>
 File: media/8000-fft.png Graphic file (type png)
 
 <use media/8000-fft.png>
 Package pdftex.def Info: media/8000-fft.png used on input line 85.
 (pdftex.def)             Requested size: 308.71106pt x 231.53339pt.
  [14 <./media/7000-fft.png> <./media/7000-signal.png>]
-<media/8000-signal.png, id=198, 770.88pt x 578.16pt>
+<media/8000-signal.png, id=396, 770.88pt x 578.16pt>
 File: media/8000-signal.png Graphic file (type png)
 
 <use media/8000-signal.png>
 Package pdftex.def Info: media/8000-signal.png used on input line 91.
 (pdftex.def)             Requested size: 308.71106pt x 231.53339pt.
- [15 <./media/8000-fft.png> <./media/8000-signal.png>]) (./anhang.tex [16] [17
+ [15 <./media/8000-fft.png> <./media/8000-signal.png>]) (./anhang.tex [16]
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2014/03/04 1.5c listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 18.
+ (./media/v5.py
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 1.
 
-])
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [17
 
-LaTeX Warning: Citation `Fra2014r' on page 18 undefined on input line 274.
+]
+Overfull \hbox (430.19113pt too wide) in paragraph at lines 39--40
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][] 
+ []
 
-[18
+
+Overfull \hbox (415.79099pt too wide) in paragraph at lines 45--47
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+)
+Overfull \hbox (26.98703pt too wide) in paragraph at lines 55--18
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+<media/Messprotokoll1.jpg, id=435, 3276.24pt x 1842.885pt>
+File: media/Messprotokoll1.jpg Graphic file (type jpg)
+
+<use media/Messprotokoll1.jpg>
+Package pdftex.def Info: media/Messprotokoll1.jpg used on input line 24.
+(pdftex.def)             Requested size: 661.5266pt x 372.1136pt.
+
+<media/Messprotokoll2.jpg, id=436, 3276.24pt x 1842.885pt>
+File: media/Messprotokoll2.jpg Graphic file (type jpg)
+
+<use media/Messprotokoll2.jpg>
+Package pdftex.def Info: media/Messprotokoll2.jpg used on input line 29.
+(pdftex.def)             Requested size: 661.5266pt x 372.1136pt.
+ [18] [19]
+Overfull \vbox (89.17128pt too high) has occurred while \output is active []
+
+
+[20 <./media/Messprotokoll1.jpg>]
+<media/Messprotokoll3.jpg, id=482, 3276.24pt x 1842.885pt>
+File: media/Messprotokoll3.jpg Graphic file (type jpg)
+
+<use media/Messprotokoll3.jpg>
+Package pdftex.def Info: media/Messprotokoll3.jpg used on input line 34.
+(pdftex.def)             Requested size: 661.5266pt x 372.1136pt.
+
+Overfull \vbox (50.2435pt too high) has occurred while \output is active []
+
+
+[21 <./media/Messprotokoll2.jpg>]
+Overfull \vbox (50.2435pt too high) has occurred while \output is active []
+
+
+[22 <./media/Messprotokoll3.jpg>])
+
+LaTeX Warning: Citation `Fra2014r' on page 23 undefined on input line 272.
+
+[23
 
 ]
 \openout2 = `appendix/bibliography.aux'.
 
  (./appendix/bibliography.tex
 No file TGAI_Laborbericht.bbl.
-)
-
-Package lastpage Warning: Rerun to get the references right on input line 281.
-
-
+) 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 281.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 281.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 279.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 279.
 (./TGAI_Laborbericht.aux (./preface/cover.aux) (./preface/abstract.aux)
 (./preface/tableofcontents.aux) (./preface/listoffigures.aux)
-(./preface/listoftables.aux) (./preface/lstlistoflistings.aux)
-(./preface/listacronym.aux) (./appendix/bibliography.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 281.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 281.
+(./preface/lstlistoflistings.aux) (./appendix/bibliography.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 279.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 279.
+Package rerunfilecheck Info: File `TGAI_Laborbericht.out' has not changed.
+(rerunfilecheck)             Checksum: 101F370A9255B5D635D94FB7822909CA;5494.
 
-
-Package rerunfilecheck Warning: File `TGAI_Laborbericht.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `TGAI_Laborbericht.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  22B83B6B2AA90897A73F9DAD792E6E35;6276.
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 281.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 279.
  ) 
 Here is how much of TeX's memory you used:
- 37033 strings out of 493104
- 762769 string characters out of 6136932
- 934020 words of memory out of 5000000
- 39642 multiletter control sequences out of 15000+600000
- 44316 words of font info for 78 fonts, out of 8000000 for 9000
+ 37659 strings out of 493104
+ 769526 string characters out of 6136932
+ 954038 words of memory out of 5000000
+ 40183 multiletter control sequences out of 15000+600000
+ 46750 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,11n,83p,740b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{/usr/s
-hare/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{/usr/share/texl
-ive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts
-/type1/public/mnsymbol/MnSymbol12.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb
-8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on TGAI_Laborbericht.pdf (25 pages, 310620 bytes).
+ 55i,12n,83p,740b,2138s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{/usr/s
+hare/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolF.enc}{/usr/share/texl
+ive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}{/usr/share/texlive/texmf
+-dist/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{/usr/share/texlive/texmf-dist/fon
+ts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/mnsy
+mbol/MnSymbol12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mnsymbol/
+MnSymbol9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/urw/times/utmri8a.pfb>
+Output written on TGAI_Laborbericht.pdf (29 pages, 5772974 bytes).
 PDF statistics:
- 272 PDF objects out of 1000 (max. 8388607)
- 207 compressed objects within 3 object streams
- 92 named destinations out of 1000 (max. 500000)
- 88 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 561 PDF objects out of 1000 (max. 8388607)
+ 485 compressed objects within 5 object streams
+ 148 named destinations out of 1000 (max. 500000)
+ 447 words of extra memory for PDF output out of 10000 (max. 10000000)
 
